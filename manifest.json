@@ -1,6 +1,6 @@
 {
-  "name" : "GradePlex",
-  "short-name" : "GP",
+  "name" : "Gradebook",
+  "short-name" : "GB",
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
