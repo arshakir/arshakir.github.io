@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const roles = ["Cybersecurity Enthusiast", "Shader Artist", "Full-Stack Developer", "CTF Player", "Security Researcher"]
+const roles = ["Cybersecurity Enthusiast", "Systems Programmer", "Computer Graphics Artist", "Full-Stack Developer", "CTF Player", "Linux Enthusiast", "Security Researcher" ]
 
 export function HeroSection() {
   const [currentRole, setCurrentRole] = useState(0)
@@ -54,12 +54,12 @@ export function HeroSection() {
           {/* Floating Avatar/Logo */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary p-1 float pulse-glow">
             <div className="w-full h-full rounded-full bg-light-bg-secondary dark:bg-dark-bg-secondary flex items-center justify-center">
-              <span className="text-4xl font-bold gradient-text">YN</span>
+              <span className="text-4xl font-bold gradient-text">AS</span>
             </div>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">Abdur-Rahman Shakir</span>
           </h1>
 
           {/* Animated Role Switcher */}
@@ -70,7 +70,7 @@ export function HeroSection() {
           </div>
 
           <p className="text-lg text-light-text-muted dark:text-dark-text-muted max-w-2xl mx-auto leading-relaxed animate-slide-in">
-            Passionate about exploring the intersection of security, graphics programming, and web technologies. I solve
+            Passionate about exploring security, graphics programming, web technologies, and operating systems. I solve
             CTF challenges, create stunning visual effects, and build robust applications.
           </p>
         </div>
@@ -80,8 +80,12 @@ export function HeroSection() {
             size="lg"
             className="group magnetic-btn bg-gradient-to-r from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary hover:shadow-glow text-white border-0 hover-lift"
           >
+          <a
+            href={"#projects"}
+            aria-label="Live project"
+          >
             View My Work
-            <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          </a>
           </Button>
           <Button
             variant="outline"
@@ -95,9 +99,9 @@ export function HeroSection() {
         {/* Enhanced Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
           {[
-            { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+            { icon: Github, href: "https://github.com/arshakir", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/abdur-rahman-shakir-83a2a1261", label: "LinkedIn" },
+            { icon: Mail, href: "mailto:arshakir999@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

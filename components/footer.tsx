@@ -30,9 +30,9 @@ export function Footer() {
           <div className="flex items-center space-x-6">
             <div className="flex space-x-4">
               {[
-                { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-                { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+                { icon: Github, href: "https://github.com/arshakir", label: "GitHub" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/abdur-rahman-shakir-83a2a1261", label: "LinkedIn" },
+                { icon: Mail, href: "mailto:arshakir999@gmail.com", label: "Email" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}

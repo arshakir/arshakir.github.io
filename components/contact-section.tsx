@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Mail, MessageSquare, Calendar, MapPin, Send, Phone } from "lucide-react"
+import { Mail, MessageSquare, Github, MapPin, Send, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -11,7 +11,7 @@ const contactMethods = [
     title: "Email",
     description: "Get in touch for collaborations or opportunities",
     action: "Send Email",
-    href: "mailto:your.email@example.com",
+    href: "mailto:arshakir999@gmail.com",
     gradient: "from-blue-500 to-cyan-500",
   },
   {
@@ -19,16 +19,8 @@ const contactMethods = [
     title: "LinkedIn",
     description: "Connect with me professionally",
     action: "Connect",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/abdur-rahman-shakir-83a2a1261",
     gradient: "from-purple-500 to-pink-500",
-  },
-  {
-    icon: Calendar,
-    title: "Schedule a Call",
-    description: "Book a time to discuss projects or opportunities",
-    action: "Schedule",
-    href: "https://calendly.com/yourusername",
-    gradient: "from-green-500 to-teal-500",
   },
 ]
 
@@ -58,7 +50,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           {contactMethods.map((method, index) => (
             <Card
               key={method.title}
@@ -98,22 +90,6 @@ export function ContactSection() {
           ))}
         </div>
 
-        {/* Contact Info */}
-        <div className="text-center glass rounded-2xl p-8 animate-slide-in">
-          <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 mb-6">
-            <div className="flex items-center space-x-2">
-              <MapPin className="h-5 w-5 text-light-accent-primary dark:text-dark-accent-primary" />
-              <span className="text-light-text-muted dark:text-dark-text-muted">Based in Your City, Country</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Phone className="h-5 w-5 text-light-accent-primary dark:text-dark-accent-primary" />
-              <span className="text-light-text-muted dark:text-dark-text-muted">Available for remote work</span>
-            </div>
-          </div>
-          <p className="text-light-text-muted dark:text-dark-text-muted">
-            Open to remote opportunities and collaborations worldwide
-          </p>
-        </div>
       </div>
     </section>
   )

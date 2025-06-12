@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Shield, Palette, Code, Trophy, Zap, Target } from "lucide-react"
+import { ExternalLink, Shield, Palette, Code, Trophy, Zap, Target } from "lucide-react"
 
 const skills = [
   {
@@ -10,7 +10,7 @@ const skills = [
     description:
       "CTF competitions, penetration testing, and security research with focus on web application security and reverse engineering.",
     color: "from-red-500 to-orange-500",
-    stats: "50+ CTFs",
+    link: "ctfs",
   },
   {
     icon: Palette,
@@ -18,29 +18,23 @@ const skills = [
     description:
       "Creating stunning visual effects using GLSL, HLSL, and modern graphics APIs for games and interactive experiences.",
     color: "from-purple-500 to-pink-500",
-    stats: "100+ Shaders",
+    link:"shaders"
   },
   {
     icon: Code,
-    title: "Full-Stack Development",
-    description: "Building scalable web applications with modern frameworks like React, Next.js, and Node.js.",
+    title: "Programming Projects",
+    description: "Buildings projects and applications using technologies from low level programming in C to web development in Next.js",
     color: "from-blue-500 to-cyan-500",
-    stats: "25+ Projects",
+    link:"https://github.com/arshakir"
+
   },
   {
     icon: Trophy,
     title: "Competitive Programming",
     description: "Problem-solving through algorithmic challenges and participating in programming competitions.",
     color: "from-yellow-500 to-orange-500",
-    stats: "Top 10%",
+    link: "https://codeforces.com/profile/arshakir"
   },
-]
-
-const achievements = [
-  { icon: Target, label: "CTF Wins", value: "15+" },
-  { icon: Zap, label: "Years Experience", value: "5+" },
-  { icon: Code, label: "Projects Built", value: "50+" },
-  { icon: Trophy, label: "Competitions", value: "100+" },
 ]
 
 export function AboutSection() {
@@ -66,23 +60,8 @@ export function AboutSection() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 gradient-text">About Me</h2>
           <p className="text-lg text-light-text-muted dark:text-dark-text-muted max-w-3xl mx-auto animate-fade-in">
             I'm a passionate technologist who loves diving deep into complex problems and creating elegant solutions. My
-            journey spans across cybersecurity, graphics programming, and web development.
+            journey spans across cybersecurity, graphics programming, web development, and low level programming.
           </p>
-        </div>
-
-        {/* Achievement Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {achievements.map((achievement, index) => (
-            <div
-              key={achievement.label}
-              className="text-center p-6 glass rounded-xl hover-lift animate-slide-in"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <achievement.icon className="h-8 w-8 mx-auto mb-3 text-light-accent-primary dark:text-dark-accent-primary" />
-              <div className="text-2xl font-bold gradient-text mb-1">{achievement.value}</div>
-              <div className="text-sm text-light-text-muted dark:text-dark-text-muted">{achievement.label}</div>
-            </div>
-          ))}
         </div>
 
         {/* Skills Grid */}
@@ -106,7 +85,15 @@ export function AboutSection() {
                   className={`h-8 w-8 text-light-accent-primary dark:text-dark-accent-primary group-hover:scale-110 transition-all duration-300 ${hoveredSkill === index ? "float" : ""}`}
                 />
                 <div className="absolute top-0 right-0 text-xs font-bold text-light-accent-primary dark:text-dark-accent-primary opacity-70">
-                  {skill.stats}
+                  <a
+                    href={skill.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Live project"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+
                 </div>
               </div>
 

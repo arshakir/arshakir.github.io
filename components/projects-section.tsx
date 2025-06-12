@@ -12,8 +12,8 @@ const projects = [
     icon: Shield,
     tags: ["Security", "CTF", "Writeups", "Analysis"],
     links: {
-      live: "https://your-ctf-writeups.com",
-      github: "https://github.com/yourusername/ctf-writeups",
+      live: "ctfs",
+      github: "https://github.com/arshakir/ctfs",
     },
     featured: true,
     gradient:
@@ -26,37 +26,10 @@ const projects = [
     icon: Palette,
     tags: ["GLSL", "WebGL", "Graphics", "Shaders"],
     links: {
-      live: "https://your-shader-portfolio.com",
-      github: "https://github.com/yourusername/shader-portfolio",
+      live: "shaders",
+      github: "https://github.com/arshakir/shaders",
     },
     featured: true,
-    gradient:
-      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
-  },
-  {
-    title: "Security Research Blog",
-    description:
-      "Technical blog covering vulnerability research, security analysis, and detailed explanations of complex security concepts.",
-    icon: FileText,
-    tags: ["Security", "Research", "Blog", "Tutorials"],
-    links: {
-      live: "https://your-security-blog.com",
-    },
-    featured: false,
-    gradient:
-      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
-  },
-  {
-    title: "Interactive Web Demos",
-    description:
-      "Collection of interactive web applications demonstrating various programming concepts, algorithms, and creative coding projects.",
-    icon: Globe,
-    tags: ["JavaScript", "React", "Interactive", "Demos"],
-    links: {
-      live: "https://your-web-demos.com",
-      github: "https://github.com/yourusername/web-demos",
-    },
-    featured: false,
     gradient:
       "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
   },
@@ -69,7 +42,7 @@ export function ProjectsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 gradient-text">Featured Projects</h2>
           <p className="text-lg text-light-text-muted dark:text-dark-text-muted max-w-3xl mx-auto">
-            Explore my latest work in cybersecurity, graphics programming, and web development. Each project represents
+            Explore my latest work in cybersecurity, graphics programming, and more. Each project represents
             a unique challenge and learning experience.
           </p>
         </div>
