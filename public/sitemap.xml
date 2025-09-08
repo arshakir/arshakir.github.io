@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://arshakir.github.io/</loc>
+  <lastmod>2025-09-08T13:02:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/shaders/</loc>
+  <lastmod>2025-08-30T19:04:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/about/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=idekCTF%202025</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=No%20Hack%20No%20CTF%202025</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=Junior.Crypt.2025</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=US%20Cyber%20Games%20Season%20V</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=overthewire-narnia</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?category=SmileyCTF%202025</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=assembly</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=buffer%20overflow</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=C</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=c</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=Crypto</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=crypto</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=CVE</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=decompiler</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=file%20format</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=file%20recovery</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=forensics</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=gdb</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=gets</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=hivexsh</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=keepass</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=LCG</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=PRNG</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=Programming</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=pwn</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=Python</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=python</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=registry</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=rev</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=roblox</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=ROP</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=RSA</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=shellcode</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=sleuthkit</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=Small%20Primes</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=VM</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/archive/?tag=windows</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/idekctf2025/lazy_vm/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/nohacknoctf2025/clannad_is_g00d_anim3/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/nohacknoctf2025/flag_checker/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/nohacknoctf2025/wolf_verifier/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/juniorcrypt2025/recovery-password/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/juniorcrypt2025/goldenbyte/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/juniorcrypt2025/robust_prng_in_python/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/juniorcrypt2025/100_percent_robust_prng/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/2/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/3/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/juniorcrypt2025/lcg_hack/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/overthewire-narnia/narnia4/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/overthewire-narnia/narnia1/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/overthewire-narnia/narnia2/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/overthewire-narnia/narnia3/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/uscybergamesseasonv/prime-suspects/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/uscybergamesseasonv/uscg-admin-was-hcked/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/uscybergamesseasonv/deleted/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/overthewire-narnia/narnia0/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/smileyctf2025/rorecovery3/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/smileyctf2025/debuggable-1/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://arshakir.github.io/ctfs/posts/smileyctf2025/debuggable-2/readme/</loc>
+  <lastmod>2025-08-30T18:59:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
