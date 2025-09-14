@@ -33,6 +33,82 @@ const projects = [
     gradient:
       "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
   },
+  {
+    title: "DTMF Codec",
+    description:
+    "Developed a Python library to encode and decode DTMF signals using FFT and signal synthesis.",
+    icon: Palette,
+    tags: ["Python", "FFT", "Signals"],
+    links: {
+      github: "https://github.com/arshakir/dtmf-codec",
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
+  {
+    title: "Impause - Financial Responsibility App",
+    description:
+      "Created a PWA that visualizes spending data and adds safeguards against impulse purchases.",
+    icon: Palette,
+    tags: ["React", "Tailwind", "Web Dev"],
+    links: {
+      github: "https://github.com/Finpause/impause",
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
+  {
+    title: "C++ ML Model to recognize MNIST number datase",
+    description:
+      "Implemented a neural network in C++ with Eigen to classify MNIST digits at 95% accuracy.",
+    icon: Palette,
+    tags: ["C++", "ML", "AI"],
+    links: {
+      github: "https://github.com/arshakir/mnist",
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
+  {
+    title: "Custom Malloc Implementation",
+    description:
+      "Designed a custom C memory allocator with red-black tree block management and fragmentation control.",
+    icon: Palette,
+    tags: ["C", "Malloc", "Memory Management"],
+    links: {
+      github: "https://github.com/arshakir/my_malloc",
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
+  {
+    title: "Over Terrain Vehicle",
+    description:
+      "Programmed an Arduino-powered robotic vehicle with sensors, motor control, and a servo-driven crane.",
+    icon: Palette,
+    tags: ["C/C++", "Arduino", "Engineering"],
+    links: {
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
+  {
+    title: "Lexer, Parser, and Evaluator for C",
+    description:
+      "Wrote an OCaml interpreter for a C-like language with type checking and control flow.",
+    icon: Palette,
+    tags: ["OCaml", "Interpreter/Compiler", "Programming Languages"],
+    links: {
+    },
+    featured: true,
+    gradient:
+      "from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary",
+  },
 ]
 
 export function ProjectsSection() {
@@ -83,6 +159,8 @@ export function ProjectsSection() {
                           </a>
                         </Button>
                       )}
+
+                      {project.links.live && (
                       <Button
                         variant="ghost"
                         size="icon"
@@ -98,6 +176,8 @@ export function ProjectsSection() {
                           <ExternalLink className="h-4 w-4" />
                         </a>
                       </Button>
+                      )}
+
                     </div>
                   </div>
                   <CardDescription className="text-base text-light-text-muted dark:text-dark-text-muted">

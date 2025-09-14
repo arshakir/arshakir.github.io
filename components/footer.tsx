@@ -60,7 +60,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-light-border dark:border-dark-border text-center">
           <p className="text-sm text-light-text-muted dark:text-dark-text-muted">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Abdur-Rahman Shakir. All rights reserved.
           </p>
         </div>
       </div>

@@ -87,13 +87,6 @@ export function HeroSection() {
             View My Work
           </a>
           </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="glass border-light-border dark:border-dark-border text-light-text-primary dark:text-dark-text-primary hover-lift magnetic-btn"
-          >
-            Download Resume
-          </Button>
         </div>
 
         {/* Enhanced Social Links */}
