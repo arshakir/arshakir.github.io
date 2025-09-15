@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, Github, FileText, Palette, Shield, Globe } from "lucide-react"
+import { ExternalLink, Github, FileText, Palette, Shield, Globe, AudioLines, WalletCards, BrainCog, Code, Microchip, MemoryStick } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -37,7 +37,7 @@ const projects = [
     title: "DTMF Codec",
     description:
     "Developed a Python library to encode and decode DTMF signals using FFT and signal synthesis.",
-    icon: Palette,
+    icon: AudioLines,
     tags: ["Python", "FFT", "Signals"],
     links: {
       github: "https://github.com/arshakir/dtmf-codec",
@@ -50,7 +50,7 @@ const projects = [
     title: "Impause - Financial Responsibility App",
     description:
       "Created a PWA that visualizes spending data and adds safeguards against impulse purchases.",
-    icon: Palette,
+    icon: WalletCards,
     tags: ["React", "Tailwind", "Web Dev"],
     links: {
       github: "https://github.com/Finpause/impause",
@@ -63,7 +63,7 @@ const projects = [
     title: "C++ ML Model to recognize MNIST number datase",
     description:
       "Implemented a neural network in C++ with Eigen to classify MNIST digits at 95% accuracy.",
-    icon: Palette,
+    icon: BrainCog,
     tags: ["C++", "ML", "AI"],
     links: {
       github: "https://github.com/arshakir/mnist",
@@ -76,7 +76,7 @@ const projects = [
     title: "Custom Malloc Implementation",
     description:
       "Designed a custom C memory allocator with red-black tree block management and fragmentation control.",
-    icon: Palette,
+    icon: MemoryStick,
     tags: ["C", "Malloc", "Memory Management"],
     links: {
       github: "https://github.com/arshakir/my_malloc",
@@ -89,7 +89,7 @@ const projects = [
     title: "Over Terrain Vehicle",
     description:
       "Programmed an Arduino-powered robotic vehicle with sensors, motor control, and a servo-driven crane.",
-    icon: Palette,
+    icon: Microchip,
     tags: ["C/C++", "Arduino", "Engineering"],
     links: {
     },
@@ -101,7 +101,7 @@ const projects = [
     title: "Lexer, Parser, and Evaluator for C",
     description:
       "Wrote an OCaml interpreter for a C-like language with type checking and control flow.",
-    icon: Palette,
+    icon: Code,
     tags: ["OCaml", "Interpreter/Compiler", "Programming Languages"],
     links: {
     },

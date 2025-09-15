@@ -6,14 +6,20 @@ import { Menu, X } from "lucide-react"
 import { ThemeToggle } from "./theme-toggle"
 import { Button } from "@/components/ui/button"
 
-const navItems = [
+const rightNavItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
+];
+
+const leftNavItems = [
   { name: "CTFs", href: "/ctfs" },
   { name: "Shaders", href: "/shaders" },
-  { name: "Contact", href: "#contact" },
-]
+];
+
+const navItems = [...rightNavItems, ...leftNavItems];
+
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,7 +31,7 @@ export function Navigation() {
       setScrolled(window.scrollY > 50)
 
       // Update active section based on scroll position
-      const sections = navItems.map((item) => item.href.slice(1))
+      const sections = rightNavItems.map((item) => item.href.slice(1))
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section)
         if (element) {
@@ -52,13 +58,26 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link href="#home" className="text-xl font-bold gradient-text hover:scale-105 transition-transform">
-            Portfolio
-          </Link>
+          <div className="flex items-center space-x-8">
+            <Link href="#home" className="text-xl font-bold gradient-text hover:scale-105 transition-transform">
+             Home 
+            </Link>
+            <div className="hidden md:flex items-center space-x-8">
+              {leftNavItems.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`relative text-light-text-secondary dark:text-dark-text-secondary hover:text-light-accent-primary dark:hover:text-dark-accent-primary transition-all duration-300`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
+            {rightNavItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
