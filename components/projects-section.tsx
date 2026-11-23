@@ -46,7 +46,7 @@ const projects = [
     topAccent: "from-cyan-400/80 via-cyan-300/40 to-transparent",
     tags: ["GLSL", "WebGL", "Computer Graphics", "Ray Tracing", "Shaders"],
     links: {
-      live: "/shaders",
+      live: "/shaders/",
       github: "https://github.com/arshakir/shaders",
     },
     featured: true,

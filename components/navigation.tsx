@@ -16,7 +16,7 @@ const rightNavItems = [
 
 const leftNavItems = [
   { name: "CTFs", href: "https://arshakir.github.io/ctfs", isExternal: true },
-  { name: "Shaders", href: "/shaders", isExternal: false },
+  { name: "Shaders", href: "/shaders/", isExternal: false },
 ]
 
 export function Navigation() {
@@ -84,13 +84,13 @@ export function Navigation() {
                     key={item.name}
                     href={item.href}
                     className={`relative text-sm font-medium transition-colors ${
-                      pathname === item.href
+                      pathname === item.href || (item.name === "Shaders" && pathname.startsWith("/shaders"))
                         ? "text-light-accent-primary dark:text-dark-accent-primary"
                         : "text-light-text-secondary dark:text-dark-text-secondary hover:text-light-accent-primary dark:hover:text-dark-accent-primary"
                     }`}
                   >
                     {item.name}
-                    {pathname === item.href && (
+                    {(pathname === item.href || (item.name === "Shaders" && pathname.startsWith("/shaders"))) && (
                       <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-light-accent-primary to-light-accent-secondary dark:from-dark-accent-primary dark:to-dark-accent-secondary rounded-full" />
                     )}
                   </Link>

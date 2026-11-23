@@ -24,7 +24,7 @@ const skills = [
     badgeBg: "bg-cyan-500/10 dark:bg-cyan-500/15 border-cyan-500/25",
     hoverBorder: "hover:border-cyan-400/40",
     barColor: "from-cyan-500 to-cyan-400 dark:from-[#B8DEEB] dark:to-[#95C2D1]",
-    link: "/shaders",
+    link: "/shaders/",
   },
   {
     icon: Code,
