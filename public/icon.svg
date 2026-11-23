@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#282836"/>
+      <stop offset="100%" stop-color="#1c1c26"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8DEEB"/>
+      <stop offset="100%" stop-color="#CDDBF9"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8DEEB" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#CDDBF9" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Squircle container -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="12"/>
+  <!-- Top-right accent indicator dot -->
+  <circle cx="424" cy="88" r="18" fill="#B8DEEB"/>
+  <!-- AS Monogram -->
+  <text x="50%" y="54%" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="240" font-weight="800" fill="url(#textGrad)" text-anchor="middle" dominant-baseline="central" letter-spacing="-6">AS</text>
+</svg>
